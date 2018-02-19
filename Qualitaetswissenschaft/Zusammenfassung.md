@@ -35,6 +35,31 @@ Die festgelegten Ziele werden nun verwendet, um einen **Produktvergleich mit der
 </center>
 
 ### Stochastik
+
+##### Begriffe
+|Begriff        |  Definition                                                                                                      |
+|---------------|------------------------------------------------------------------------------------------------------------------|
+| Vollerhebung  |Ein Experiment wird so oft wiederholt, wie Elemente vorhanden sind, d.h. k-Ziehungen von n-Elementen (wobei k = n)|
+| Stichprobe    |Ein Experiment mit n-Elementen wird k-mal wiederholt (wobei k < n)                                                |
+| ungeordnet    |Reihenfolge der Ergebnisse ist ohne Bedeutung (z.B. Lotto)                                                        |
+| geordnet      |Reihenfolge der Ergebnisse ist wichtig (z.B. Zieleinlauf)                                                         |
+| stetige Werte |alle Werte innerhalb eines Intervalls (z.B. benötigte Zeit für einen 100m Lauf)                                   |  
+| diskrete Werte|abzählbar viele Werte, z.B. Würfelaugen (d.h. keine Zwischenwerte)                                                |##### Formelzeichen
+|Formelzeichen       |  Konvention                              |
+|--------------------|------------------------------------------|
+|kleine Buchstaben   |Elementarereignisse                       |
+|große Buchstaben    |Menge von Elementarereignissen            |
+|P(X)                |Wahrscheinlichkeit, mit der X eintritt    |
+|n                   |Anzahl der Versuchswiederholung           |
+|k                   |Anzahl der Treffer                        |  
+|p                   |Wahrscheinlichkeit für einen Erfolg       |
+|q                   |Wahrscheinlichkeit für eine Misserfolg    |
+|V(X)                |Varianz                                   |
+|E(X)                |Erwartungswert                            |
+|$\sigma$ (sigma)    |Standardabweichung, Streuungsmaß          |
+|$\epsilon$ (Epsilon)|Umgebung um eine Zahl, Toleranzband       |
+
+
 ### Mittelwert, empirische Varianz, Standardabweichung
 ### Normal-, Gleich-, Hypergeometrisch-, Binomialverteilungen
 ### Fehler 1. und 2. Art
