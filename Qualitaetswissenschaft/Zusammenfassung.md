@@ -133,8 +133,61 @@ $$ V(X) = n \cdot \frac{M}{N} \cdot \left( 1-\frac{M}{N} \right) \cdot \frac{N-n
 
 $$ E(X) = n \cdot p \quad \quad V(X) = n \cdot p \cdot q $$
 
-### Fehler 1. und 2. Art
+### Hypothesentest
 
+Bei einem Hypothesentest stehen sich zwei einander widersprechende Behauptungen / Vermutungen (sog. Hypothesen) gegenüber. Welche der beiden Hypothesen wahr ist und welche falsch, weiß man nicht und man kann es auch nicht wissen, da in den Hypothesen Aussagen über vom Zufall beeinflusste Vorgänge gemacht werden.
+
+Der Hypothesentest dient nun dazu anhand des Ergebnisses einer Stichprobe zu einer Entscheidung darüber zu kommen, welche der beiden Hypothesen angenommen und welche verworfen wird. 
+
+##### Nullhypothese & Gegenhypothese
+
+Als erstes muss man aus der Aufgabenstellung die beiden einander gegenüberstehenden Hypothesen herauslesen.
+In der Regel werden in den beiden Hypothesen Aussagen über die Wahrscheinlichkeit für den Eintritt eines bestimmten Ereignisses gemacht.
+Um welches Ereignis handelt es sich? Dieses Ereignis wird dann als Erfolg (im Sinne des Treffers einer Bernoulli-Kette) aufgefasst und seine Wahrscheinlichkeit üblicherweise mit $p$ abgekürzt.
+
+*Beispiel:* <br>
+Bernoulli-Experiment: Anfertigen eines Bauteils durch die Maschine. <br>
+Erfolg mit Warscheinlichkeit $p$: Das Bauteil ist Ausschuss.
+
+Welche Aussagen über $p$ stehen einander gegenüber? Oft wird in der Aufgabenstellung nur eine der beiden Hypothesen konkret formuliert. Die andere muss man dann (zumeist einfach durch logische Verneinung der angegebenen Hypothese) selbst erschließen.
+Bei einem Signifikanztest: Welche der beiden Hypothesen ist die Nullhypothese und welche die Gegenhypothese?
+
+*Beispiel:* <br>
+Hypothese 1: "Die Trefferwahrscheinlichkeit $p$ hat sich erhöht" <br>
+Hypothese 2: "Die Trefferwahrscheinlichkeit $p$ hat sich nicht erhöht".
+
+Angenommen wir haben zunächst vermutet das Hyphothese 1 stimmt (weil wir der Drecksmaschine nicht vertrauen), dann wählen wir die andere Hypothese zur Nullhypotese (nehmen also kategorisch an, dass wir uns irren).
+
+Nullhypothese: $H_0: p≤2\% $ <br>
+Gegenhypothese: $H_1: p>2\% $
+
+##### Stichprobe
+
+Um zu einer Entscheidung darüber zu gelangen, welche der beiden Hypothesen angenommen und welche verworfen werden soll, plant man nun die Durchführung eine Stichprobe.
+
+Die Anzahl $n$ der Wiederholungen des Zufallsexperiments bezeichnet man als die Länge der Stichprobe.
+Das, worauf bei der Durchführung der einzelnen Versuche geachtet wird (also die Anzahl der Eintritte des betreffenden Ereignisses), nennt man die Testgröße. Sie wird manchmal mit $T$, oft auch mit $X$ oder $Z$ abgekürzt.
+
+Bei der Stichpobe handelt es sich dabei um eine Bernoulli-Kette. Die Testgröße ist daher binomialverteilt.
+
+*Beispiel:* <br>
+Länge: Wir werfen die Maschine z.B. 100 mal an. <br>
+Testgröße: Die Maschine produziert z.B. 5-mal Mist.
+
+##### Entscheidungsregel
+
+Abhängig vom Wert, den die Testgröße in der Stichprobe annimmt, wird man die Richtigkeit der einen bzw. der anderen der beiden Hypothesen annehmen.
+
+Diejenigen Werte zwischen $0$ und $n$, bei denen die Richtigkeit der Hypothese $H$ angenommen werden soll, bezeichnet man als den Annahmebereich von $H$. Die anderen Werte, also die, bei denen $H$ verworfen (d.h. abgelehnt) wird, bilden den Ablehnungsbereich von $H$.
+
+Die Entscheidungsregel aufstellen heißt für eine der beiden Hypothesen - üblicherweise für die Nullhypothese - Annahme- und Ablehnungsbereich festzulegen.
+
+##### Fehler 1. und 2. Art
+
+|                         |  $H_0$ ist wahr.  | $H_0$ist falsch.   |
+|-------------------------|----------------|-----------------|
+| Die Testgröße $T$ nimmt <br> bei der Stichprobe einen <br> Wert im Annahmebereich <br> von $H_0$ an.                 | Richtige Entscheidung               |  **Fehler 2. Art** <br> $H_0$ ist falsch und wird <br> zu Unrecht beibehalten.               |
+| Die Testgröße $T$ nimmt <br> bei der Stichprobe einen <br> Wert im Ablehnungsbereich <br>  von $H_0$ an.             | **Fehler 1. Art** <br> $H_0$ ist richtig und wird <br> zu Unrecht verworfen.               | Richtige Entscheidung                |
 
 
 ### OC-Diagramm (AQL, RQL, IQL, $\alpha$, $\beta$, Produzentenpunkt, Konsumentenpunkt)
