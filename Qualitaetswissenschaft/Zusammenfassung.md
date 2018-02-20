@@ -59,8 +59,29 @@ Die festgelegten Ziele werden nun verwendet, um einen **Produktvergleich mit der
 |$\sigma$ (sigma)    |Standardabweichung, Streuungsmaß          |
 |$\epsilon$ (Epsilon)|Umgebung um eine Zahl, Toleranzband       |
 
+### Binomialakoeffizient
+
+Der Binomialkoeffizient gibt an, auf wie viele verschiedene Arten man k Objekte aus einer Menge von n verschiedenen Objekten auswählen kann. Der Versuch wird dabei ohne Zurücklegen und ohne Beachtung der Reihenfolge durchgeführt.
+
+$$ {n \choose k} = \frac{n!}{k! \cdot (n-k)!}$$
+
+### Laplace-Verteilung 
+
+Alle Ereignisse treten mit der gleichen Wahrscheinlichkeit auf, z.B. Münze oder Würfel.
+
+$$ P(A) = \frac{Anzahl \space der \space möglichen \space Erfolge}{Anzahl \space aller \space möglichen \space Ereignisse} $$
+
+### Binomial-Verteilung
+
+Das Experiment liefert genau zwei Ergebnisse mit den Wahrscheinlichkeiten p für Erfolg und q für Misserfolg.
+
+$$ p + q = 1 $$
+
+$$ P(X=k) ={n \choose k}⋅p^k ⋅q^{(n−k)} $$
 
 ### Mittelwert, empirische Varianz, Standardabweichung
+
+
 ### Normal-, Gleich-, Hypergeometrisch-, Binomialverteilungen
 ### Fehler 1. und 2. Art
 ### OC-Diagramm (AQL, RQL, IQL, $\alpha$, $\beta$, Produzentenpunkt, Konsumentenpunkt)
