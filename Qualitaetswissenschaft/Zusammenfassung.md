@@ -212,6 +212,26 @@ RQL ist die Abkürzung für ''rejectable quality limit'' (dt. rückzuweisende Qu
 <img src="Bilder/AQL_IQL_RQL.png">
 
 ### Prozessfähigkeitsindex
+
+Der Prozessfähigkeitsindex gibt an, ob ein Prozess mit den Kenngrößen $\mu$ (Mittelwert) und $\sigma$ (Standardabweichung) bzgl. der Oberen und Unteren Streugrenze $USG$ und $OSG$ (Festgelegt) fähig ist diese Anforderung zu erfüllen. 
+
+##### Prozessfähigkeitsindex
+
+$$c_p = \frac{OSG-USG}{6 \sigma}$$
+
+##### Tatsächlicher Prozessfähigkeitsindex (Verschoben)
+
+Der PFI gibt nur auskunft über die Streuung, berücksichtigt aber nicht ob die Mittlere produzierte Einheit auch in der Mitte der $USG$ und $OSG$ liegt.
+
+$$c_{pK} = \frac{min(\mu - USG, OSG - \mu)}{3 \sigma}$$
+
+##### Grenze
+
+Früher wurde oft ein $c_p$ Wert von $1.0$ akzeptiert, heute wird oftmals ein Wert von $1.33$ oder $2.0$ verwendet.
+
+
+
+
 ### Justierung
 ### Perato-Analyse
 ### Ishikawa-Diagramm
