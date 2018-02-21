@@ -230,10 +230,17 @@ $$c_{pK} = \frac{min(\mu - USG, OSG - \mu)}{3 \sigma}$$
 Früher wurde oft ein $c_p$ Wert von $1.0$ akzeptiert, heute wird oftmals ein Wert von $1.33$ oder $2.0$ verwendet.
 
 
-
-
 ### Justierung
+
+Nach der Normung wird Justieren wie folgt definiert: <br>
+„Einstellen oder Abgleichen eines Messgerätes, um systematische Abweichungen so weit zu beseitigen, wie es für die vorgesehene Anwendung erforderlich ist. − Justierung erfordert einen Eingriff, der das Messgerät bleibend verändert.“
+
+Die Justierung ist zu unterscheiden von der Kalibrierung, die ein Einmessen ist und ohne Eingriff in das Messgerät durchgeführt wird.
+
 ### Perato-Analyse
+
+
+
 ### Ishikawa-Diagramm
 ### Vollfaktorieller Versuchsplan / Teilfaktorieller Versuchsplan
 ### Effektdiagramm
