@@ -237,11 +237,26 @@ Nach der Normung wird Justieren wie folgt definiert: <br>
 
 Die Justierung ist zu unterscheiden von der Kalibrierung, die ein Einmessen ist und ohne Eingriff in das Messgerät durchgeführt wird.
 
-### Perato-Analyse
+### Pareto-Analyse
 
+Das Paretodiagramm beruht auf dem Paretoprinzip<br>
 
+> Die meisten Auswirkungen eines Problems (80%) lassen häufig auf nur 
+> eine kleine Anzahl von 	Ursachen (20%) zurückführen. 
+
+Es ist ein Säulendiagramm, das Problemursachen nach ihrer Bedeutung ordnet.
+
+<img src="Bilder/pareto.png">
 
 ### Ishikawa-Diagramm
+
+Das Ishikawa-Diagramm ist ein **Ursache-Wirkungs-Diagramm**.
+
+<img src="Bilder/ishikawa.png">
+
 ### Vollfaktorieller Versuchsplan / Teilfaktorieller Versuchsplan
+
+
+
 ### Effektdiagramm
 ### Fehlermöglichkeits- und Einflussanalyse (FMEA)
