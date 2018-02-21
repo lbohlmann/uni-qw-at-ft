@@ -254,9 +254,30 @@ Das Ishikawa-Diagramm ist ein **Ursache-Wirkungs-Diagramm**.
 
 <img src="Bilder/ishikawa.png">
 
-### Vollfaktorieller Versuchsplan / Teilfaktorieller Versuchsplan
+##### Vollfaktorieller Versuchsplan 
 
+Vollfaktorielle Versuchspläne
+Ein vollfaktorieller Versuchsplan ist ein Versuchsplan, bei dem für sämtliche Kombinationen von Faktorstufen Messwerte für die Antwortvariable erfasst werden. Minitab bietet zwei Arten von vollfaktoriellen Versuchsplänen:
 
++ Zweistufige vollfaktorielle Versuchspläne, die nur Faktoren mit 2 Stufen enthalten
++ Allgemeine vollfaktorielle Versuchspläne, die Faktoren mit mehr als zwei Stufen enthalten
+
+Für einen zweistufigen vollfaktoriellen Versuchsplan sind $2^k$ Durchläufe erforderlich, wobei $k$ für die Anzahl der Faktoren steht. Mit zunehmender Anzahl der Faktoren in einem zweistufigen faktoriellen Versuchsplan steigt die erforderliche Anzahl der Durchläufe zum Ausführen eines vollfaktoriellen Versuchsplans rapide an.
+
+##### Teilfaktorieller Versuchsplan
+
+Ein teilfaktorieller Versuchsplan ist ein Versuchsplan, bei dem nur eine ausgewählte Teilmenge oder „Fraktion“ der Durchläufe des vollfaktoriellen Versuchsplans ausgeführt wird.<br>
+Teilfaktorielle Versuchspläne eignen sich gut für Situationen mit begrenzten Ressourcen oder für Versuchspläne mit einer hohen Anzahl von Faktoren, da weniger Durchläufe als bei einem vollfaktoriellen Versuchsplan anfallen.
 
 ### Effektdiagramm
+
+##### Haupteffektdiagramm
+
+<img src="Bilder/haupteffekt.png">
+
+##### Wechselwirkungsdiagramm
+
+<img src="Bilder/wechselwirkung.png">
+
 ### Fehlermöglichkeits- und Einflussanalyse (FMEA)
+
