@@ -281,3 +281,39 @@ Teilfaktorielle Versuchspläne eignen sich gut für Situationen mit begrenzten R
 
 ### Fehlermöglichkeits- und Einflussanalyse (FMEA)
 
+FMEA zielt darauf, Fehler von vornherein zu vermeiden, statt sie nachträglich zu entdecken und zu korrigieren. Bereits in der Entwurfsphase sollen potenzielle Fehlerursachen identifiziert und bewertet werden. Damit werden Kontroll- und Fehlerfolgekosten in der Produktion oder gar beim Kunden vermieden. Durch die dabei gewonnenen Erkenntnisse wird zudem die Wiederholung von Entwurfsmängeln bei neuen Produkten und Prozessen vermieden.
+
+Die Methodik der FMEA soll schon in der frühen Phase der Produktentwicklung (Planung und Entwicklung) innerhalb des Produktlebenszyklus angewandt werden, da eine Kosten-/Nutzenoptimierung in der Entwicklungsphase am wirtschaftlichsten ist (präventive Fehlervermeidung). Je später ein Fehler entdeckt wird, desto schwieriger und kostenintensiver wird seine Korrektur sein.
+
+##### Aspekte
+
++ Eine Eingrenzung des betrachteten Systems
++ Eine Strukturierung des betrachteten Systems
++ Definitionen von Funktionen der Strukturelemente
++ Eine Analyse auf potenzielle Fehlerursachen, Fehlerarten und Fehlerfolgen, die sich direkt  aus den Funktionen der Strukturelemente ableiten
++ Eine Risikobeurteilung
++ Maßnahmen- bzw. Lösungsvorschläge zu priorisierten Risiken
++ Eine Verfolgung vereinbarter Vermeidungs- und Entdeckungsmaßnahmen
++ Eine Restrisikobeurteilung bzw. -bewertung
+
+##### Durchführung
+
+Bei der Anwendung wird zunächst ein Team aus Mitarbeitern verschiedener Unternehmensfunktionen (interdisziplinäres Team) gebildet.
+Einzubeziehen sind insbesondere Konstruktion, Entwicklung, Versuch, Fertigungsplanung, Fertigungsausführung, Qualitätsmanagement etc. <br>
+Der Analyseprozess selbst wird dann mit Hilfe von Formblättern (QS-9000) oder entsprechender Software in formalisierter Weise (VDA 4.2) durchgeführt.
+ 
+Potenzielle Fehler werden analysiert, indem der Fehlerort lokalisiert wird, die Fehlerart bestimmt, die Fehlerfolge beschrieben und anschließend die Fehlerursache ermittelt wird. Zur Ermittlung denkbarer Fehlerursachen wird häufig ein sogenanntes Ursache-Wirkungs-Diagramm erstellt. Es ist möglich, dass schon aufgrund einer erkannten Fehlerursache unmittelbar Hinweise auf mögliche Maßnahmen zur Fehlervermeidung abgeleitet werden können.
+
+Die Kennzahlen $B$, $A$ und $E$ zur $B$edeutung (Fehlerfolge), $A$uftretenswahrscheinlichkeit  und $E$ntdeckungswahrscheinlichkeit sind eine Grundlage zur Risikobeurteilung. 
+
+Die Kennzahlen sind ganzzahlige Zahlenwerte zwischen 1 und 10 und werden unter Zuhilfenahme von Bewertungskatalogen vergeben.
+
+Mit der Berechnung der Risiko-Prioritätszahl ($RPZ$) wird der Versuch gemacht, eine Rangfolge der Risiken zu erstellen. Die RPZ entsteht durch Multiplikation der $B$-, $A$- und $E$-Bewertungszahlen 
+
+$$RPZ = B \cdot A \cdot E$$
+und kann dementsprechend Werte zwischen 1 und 1000 annehmen. 
+
+Es sollte der Anspruch bestehen, dass die $RPZ$, mindestens im Vergleich mit anderen $RPZ$ der gleichen FMEA, eine Aussage im Sinne besser/schlechter erlaubt. Dies ist aber nach DIN EN 60812 allgemein nicht erfüllt.
+
+Das Ziel der $RPZ$, die Bedeutung und den Rang eines Fehlers abzuschätzen, um hieraus Prioritäten für die zu ergreifenden Maßnahmen abzuleiten, wird immer wieder in Frage gestellt.
+
