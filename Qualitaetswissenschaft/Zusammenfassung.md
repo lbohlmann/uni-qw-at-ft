@@ -190,7 +190,27 @@ Die Entscheidungsregel aufstellen heißt für eine der beiden Hypothesen - übli
 | Die Testgröße $T$ nimmt <br> bei der Stichprobe einen <br> Wert im Ablehnungsbereich <br>  von $H_0$ an.             | **Fehler 1. Art** <br> $H_0$ ist richtig und wird <br> zu Unrecht verworfen.               | Richtige Entscheidung                |
 
 
-### OC-Diagramm (AQL, RQL, IQL, $\alpha$, $\beta$, Produzentenpunkt, Konsumentenpunkt)
+### OC-Diagramm (Operationscharacteristik)
+
+##### Vorgehen
+
+RQL (Fehler 2. Art) wird mit dem Kunden und AQL (Fehler 1. Art) mit der Produktion festgelegt. <br>
+Die Operationscharakteristik-Funktion muss dann diese Punkte **unter**- (Konsumentenpunkt) bzw. **über**schreiten (Produzentenpunkt). Die Operationscharakteristik-Funktion kann dabei über die Annahmezahl $c$ und den Stichprobenumfang $n$ beeinflusst werden und somit sind die Parameter für das Prüflos bestimmt.
+
+##### IQL
+
+IQL ist die Abkürzung für Indifferente Qualitätslage. Das ist die Qualitätslage, bei der die Annahmewahrscheinlichkeit 50 % beträgt. Dieser Wert ist in der Praxis von geringer Bedeutung.
+
+##### AQL
+
+AQL ist die Abkürzung für ''acceptance quality limit'' (dt. annehmbare Qualitätsgrenzlage), ein Zahlenwert, der – sofern zwischen Kunden und Lieferanten vereinbart – angibt, wie hoch der Ausschussanteil ist, bei dem das Los mit der Wahrscheinlichkeit $1−\alpha$  angenommen wird (Produzentrisiko).
+
+##### RQL
+
+RQL ist die Abkürzung für ''rejectable quality limit'' (dt. rückzuweisende Qualitätsgrenzlage). Ein Zahlenwert, der – sofern zwischen Kunden und Lieferanten vereinbart – angibt, wie hoch der Ausschussanteil ist, bei dem das Los mit der Wahrscheinlichkeit Fehler 2. Art ($\beta$ -Fehler) irrtümlich angenommen wird (Konsumentenrisiko).
+
+<img src="Bilder/AQL_IQL_RQL.png">
+
 ### Prozessfähigkeitsindex
 ### Justierung
 ### Perato-Analyse
