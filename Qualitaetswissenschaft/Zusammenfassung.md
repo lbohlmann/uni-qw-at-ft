@@ -67,13 +67,13 @@ $$ {n \choose k} = \frac{n!}{k! \cdot (n-k)!}$$
 
 ### Verteilungen
 
-##### Laplace-Verteilung 
+##### Laplace Verteilung 
 
 Alle Ereignisse treten mit der gleichen Wahrscheinlichkeit auf, z.B. Münze oder Würfel.
 
 $$ P(A) = \frac{Anzahl \space der \space möglichen \space Erfolge}{Anzahl \space aller \space möglichen \space Ereignisse} $$
 
-##### Binomial-Verteilung
+##### Binomial Verteilung
 
 Das Experiment liefert genau zwei Ergebnisse mit den Wahrscheinlichkeiten p für Erfolg und q für Misserfolg.
 
@@ -88,6 +88,25 @@ Eine Menge besteht aus N-Elementen. M-Elemente gehören zur Sorte 1, (N-M) Elem
 $$ P(X=k) = \frac{{M \choose k} \cdot {{N-M} \choose {n-k}}}{N \choose n} $$
 
 z.B. Stichprobe auf Funktionsfähigkeit von N-Produkten, von denen M funktionieren und N-M defekt sind.
+
+##### Poisson Verteilung
+
+Die Poisson-Verteilung (benannt nach dem Mathematiker Siméon Denis Poisson) ist eine Wahrscheinlichkeitsverteilung, mit der die Anzahl von Ereignissen modelliert werden kann, die bei konstanter mittlerer Rate unabhängig voneinander in einem festen Zeitintervall oder räumlichen Gebiet eintreten.
+
+Ereignisanzahl $k$ <br>
+Intensität $\lambda$
+
+$$P_{\lambda }(k)={\frac  {\lambda ^{k}}{k!}}\,{\mathrm  {e}}^{{-\lambda }}$$
+
+$$E(X) = \lambda \quad \quad V(X) = \lambda$$
+
+##### Exponentialverteilung
+
+Die Exponentialverteilung ist eine stetige Wahrscheinlichkeitsverteilung über der Menge der nicht-negativen reellen Zahlen, die durch eine Exponentialfunktion gegeben ist. Sie wird als Modell vorrangig bei der Beantwortung der Frage nach der Dauer von zufälligen Zeitintervallen benutzt.
+
+$$f_{{\lambda }}(x)={ \lambda {{\rm {e}}}^{{-\lambda x}}}$$
+
+$$F(x)=\int \limits _{{0}}^{x}f_{\lambda }\left(t\right)\ {{\rm {d}}}t={\begin{cases}1-{\mathrm  {e}}^{{-\lambda x}}&x\geq 0,\\0&x<0.\end{cases}}$$
 
 ### Erwartungswert, Varianz, Standardabweichung
 
