@@ -80,7 +80,15 @@ Jede Formel der Aussagenlogik lässt sich in die disjunktive Normalform umwandel
 
 Auf diese Weise erhält man allerdings in der Regel keine minimale Formel, das heißt eine Formel mit möglichst wenig Termen. Will man eine minimale Formel bilden, so kann man dies mit Hilfe von Karnaugh-Veitch-Diagrammen oder mithilfe des Quine-McCluskey-Verfahrens tun.
 
-## Karnaugh Diagramm
+## Karnaugh-Veitch-Diagramm
+
+Das Karnaugh-Veitch-Diagramm oder auch K-V-Diagramm ist eine Methode zum bestimmen der optimierten (kleinstmöglichen) Funktion für eine gewünschte Wahrheitstafel, oder auch einen nicht optimierten boolschen Ausdruck, da dieser ja eine Wahrheitstafel für alle möglichen Eingänge liefert.
+
+##### ''Don't Care''-Werte
+
+Sollte eine direkt Wahrheitstafel als Ausgangspunkt dienen, so kann es sein das bestimmte Eingangskonstellationen zu einem beliebigen Ausgangswert führen dürfen, da dieser in der Zielanwendung nicht beachtet werden soll oder ohnehin nicht eintreten kann. In diesem Fall kann im K-V-Diagramm ein ''Don't Care'' eingetragen werden, z.B. durch ein X symbolisiert, hier kann dann unter Berücksichtigung der anderen festen Zielwerte entweder eine 1 oder eine 0 eingetragen werden, je nachdem was eine bessere Optimierung ermöglicht.
+
+
 ## K-F-Diagramm
 ## Kippschaltungen
 ## RS Latch / Flipflop
