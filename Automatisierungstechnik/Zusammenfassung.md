@@ -88,11 +88,32 @@ Das Karnaugh-Veitch-Diagramm oder auch K-V-Diagramm ist eine Methode zum bestimm
 
 Sollte eine direkt Wahrheitstafel als Ausgangspunkt dienen, so kann es sein das bestimmte Eingangskonstellationen zu einem beliebigen Ausgangswert führen dürfen, da dieser in der Zielanwendung nicht beachtet werden soll oder ohnehin nicht eintreten kann. In diesem Fall kann im K-V-Diagramm ein ''Don't Care'' eingetragen werden, z.B. durch ein X symbolisiert, hier kann dann unter Berücksichtigung der anderen festen Zielwerte entweder eine 1 oder eine 0 eingetragen werden, je nachdem was eine bessere Optimierung ermöglicht.
 
-
-## K-F-Diagramm
 ## Kippschaltungen
+
+
 ## RS Latch / Flipflop
+
+Das RS-Flip-Flop (nicht-taktgesteuert) ist ein bistabiles Element und der Grundbaustein für alle Flip-Flops in der Digitaltechnik. Man kann dieses Flip-Flop aus zwei NOR-Verknüpfungen oder zwei NAND-Verknüpfungen aufbauen. Beim RS-Flip-Flop mit NOR-Gliedern spricht man von einem 1-aktiven Flip-Flop. Beim RS-Flip-Flop mit NAND-Gliedern spricht man vom 0-aktiven Flip-Flop.
+Diese Art von Flip-Flop wird in der Digitaltechnik häufig hinter Schaltern oder Tastern geschaltet um den mechanischen Schaltvorgang prellfrei auswerten zu können.
+
+##### Unterschied RS-Flip-Flop / SR-Flip-Flop
+
+In der Literatur gibt es zwei Bezeichnungen für dieses Flip-Flop: RS-Flip-Flop und SR-Flip-Flop. Unterschied zwischen RS-Flip-Flop und SR-Flip-Flop ist die Dominanz bezogen auf das Q-Signal, wenn sowohl Reset (R) als Set (S) logisch 1 sind. 
+
+Das RS-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Rücksetzen. Das SR-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Setzen.
+
+##### Implementierung mit NOR-Gattern
+
+<img src="Bilder/RS_NOR.gif"/>
+
+##### Implementierung mit NAND-Gattern
+
+<img src="Bilder/RS_NAND.gif"/>
+
 ## Zustandsgraph
+
+
+
 ## Zustandsübergangsdiagramm
 ## Systemzustände
 ## Schaltfunktionen
