@@ -112,11 +112,16 @@ Das RS-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Rücksetzen. D
 
 ### T-Flip-Flop
 
+**TODO**
+
 ### D-Flip-Flop
+
+**TODO**
 
 ### JK-Flip-Flop
 
-## Zustandsgraph
+**TODO**
+
 ## Zustandsübergangsdiagramm
 
 Ein Zustandsübergangsdiagramm ist eine grafische Darstellung von endlichen Automaten, d. h. Zuständen und deren Übergangsbedingungen, um die enthaltenen Verknüpfungen möglichst durchschaubar und eindeutig zu visualisieren.
@@ -141,7 +146,9 @@ Treten Stabilitätsprobleme auf, können diese durch einen Systemtakt, der ein
 
 ## Mealy- / Moore-Automaten 
 
-Mealy- und Moore-Automaten lassen sich ineinander umwandeln. Will man beispielsweise einen Mealy-Automaten in einen Moore-Automaten umwandeln kann man in folgenden drei Schritten vorgehen:
+Mealy- und Moore-Automaten lassen sich ineinander umwandeln.
+
+### Umwandlung von Mealy nach Moore
 
 ##### Schritt 1: Ausgabe in die Knoten schreiben
 
@@ -164,6 +171,10 @@ Zuletzt muss man alle ausgehenden Kanten der ursprünglichen Zustände kopieren 
 Die Ausgabe des so konstruierten Moore-Automaten ist äquivalent zu der des ursprünglichen Mealy-Automaten.
 
 <img src="Bilder/Mealy_Moore_4.png"/>
+
+## Umwandlung von Moore nach Mealy
+
+**TODO**
 
 ## Systemzustände
 ## Schaltfunktionen
@@ -209,6 +220,10 @@ $x$ = Ausgangswert <br>$w$ = Gewichtungsvektor <br>$f(s)$ = Aktivierungsfunkti
 
 Ein neuronales Netz setzt sich aus mehreren PE zusammen Üblicherweise werden dazu verschiedene Schichten von PE untereinander vernetzt
 
+##### Perzeptron Konvergenzregel
+
+**TODO**
+
 ##### Vorteile
 
 + Lernfähigkeit, Parallelität, Verteilte Wissensrepräsentation+ Höhere Fehlertoleranz, Assoziative Speicherung von Informationen+ Robustheit gegen Störungen oder verrauschte Daten+ Aktive Repräsentation
@@ -216,3 +231,11 @@ Ein neuronales Netz setzt sich aus mehreren PE zusammen Üblicherweise werden d
 ##### Nachteile
 
 + Wissenserwerb nur durch Lernen möglich+ keine Introspektion möglich (z.B. durch "Selbstbeobachtung")+ Logisches (sequentielles) Schließen ist schwer zu realisieren+ Lernen ist relativ langsam
+
+## Speicherprogrammierbare Steuerungen
+
+##### Anweisungsliste (AWL)
+
+##### Kontaktplan
+
+##### Ablaufplan
