@@ -199,6 +199,16 @@ Die Vereinigung zweier unscharfer Mengen $A$ und $B$ ist für jedes $x$ das jew
 
 <img src="Bilder/PE.png"/>
 
+Das Ausgangssignal y einer PE kann nun folgendermaßen berechnet werden:
+
+$$ y = f\left( \sum \limits_{k=1}^n {(w_k \cdot x_k)}\right)  $$
+
+Wobei gilt: <br>
+$x$ = Eingangsvektor <br>
+$x$ = Ausgangswert <br>$w$ = Gewichtungsvektor <br>$f(s)$ = Aktivierungsfunktion
+
+Ein neuronales Netz setzt sich aus mehreren PE zusammen Üblicherweise werden dazu verschiedene Schichten von PE untereinander vernetzt
+
 ##### Vorteile
 
 + Lernfähigkeit, Parallelität, Verteilte Wissensrepräsentation+ Höhere Fehlertoleranz, Assoziative Speicherung von Informationen+ Robustheit gegen Störungen oder verrauschte Daten+ Aktive Repräsentation
