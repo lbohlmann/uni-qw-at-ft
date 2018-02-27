@@ -111,10 +111,14 @@ Das RS-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Rücksetzen. D
 <img src="Bilder/RS_NAND.gif"/>
 
 ## Zustandsgraph
-
-
-
 ## Zustandsübergangsdiagramm
+
+Ein Zustandsübergangsdiagramm ist eine grafische Darstellung von endlichen Automaten, d. h. Zuständen und deren Übergangsbedingungen, um die enthaltenen Verknüpfungen möglichst durchschaubar und eindeutig zu visualisieren.
+
+Anwendung findet das Zustandsübergangsdiagramm im Rahmen der Systemtheorie in den verschiedensten Bereichen der Informatik. Eine wesentliche Vereinheitlichung wurde durch David Harels Statechart-Notation erreicht, welche weithin als die allgemeingültige Form von Zustandsübergangsdiagrammen gesehen wird. Für die objektorientierte Softwareentwicklung ist es mittlerweile im Rahmen der Unified Modeling Language normiert als Zustandsdiagramm.
+
+<img src="Bilder/UML_Zustand.png"/>
+
 ## Systemzustände
 ## Schaltfunktionen
 ## Fuzzy Logic
