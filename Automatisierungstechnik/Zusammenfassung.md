@@ -91,7 +91,7 @@ Sollte eine direkt Wahrheitstafel als Ausgangspunkt dienen, so kann es sein das 
 ## Kippschaltungen
 
 
-## RS Latch / Flipflop
+### RS Latch / Flipflop
 
 Das RS-Flip-Flop (nicht-taktgesteuert) ist ein bistabiles Element und der Grundbaustein für alle Flip-Flops in der Digitaltechnik. Man kann dieses Flip-Flop aus zwei NOR-Verknüpfungen oder zwei NAND-Verknüpfungen aufbauen. Beim RS-Flip-Flop mit NOR-Gliedern spricht man von einem 1-aktiven Flip-Flop. Beim RS-Flip-Flop mit NAND-Gliedern spricht man vom 0-aktiven Flip-Flop.
 Diese Art von Flip-Flop wird in der Digitaltechnik häufig hinter Schaltern oder Tastern geschaltet um den mechanischen Schaltvorgang prellfrei auswerten zu können.
@@ -110,6 +110,12 @@ Das RS-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Rücksetzen. D
 
 <img src="Bilder/RS_NAND.gif"/>
 
+### T-Flip-Flop
+
+### D-Flip-Flop
+
+### JK-Flip-Flop
+
 ## Zustandsgraph
 ## Zustandsübergangsdiagramm
 
@@ -119,9 +125,84 @@ Anwendung findet das Zustandsübergangsdiagramm im Rahmen der Systemtheorie in d
 
 <img src="Bilder/UML_Zustand.png"/>
 
+## Schaltwerkanalyse
+
+##### Stabilität
+Ein Schaltwerk ist stabil, wenn:
+
++ die Reihe der Folgezustände, die das Schaltwerk für jeden der Eingangsvektoren durchläuft, nicht zyklisch ist, sondern in einem für diesen Eingangsvektor stabilen Zustand endet.
++ die Kodierung der Zustände so gewählt werden kann, dass sich beim Übergang der Zustandsvariablen nur ein Bit ändert. Ist dies nicht möglich, kann das Schaltwerk wegen unterschiedlicher Gatterlaufzeiten in fehlerhafte Zustände geraten.
+
+Treten Stabilitätsprobleme auf, können diese durch einen Systemtakt, der einen Zustandsübergang nur zu bestimmten Zeitpunkten ermöglicht, umgangen werden.Ein solches Schaltwerk bezeichnet man dann als synchrones Schaltwerk, da sich die Zustandsvariablen zum gleichen Zeitpunkt ändern. Dies resultiert jedoch in höheren Kosten für das Schaltwerk.Ist eine Realisierung des Schaltwerks durch Simulation, z.B. in einer speicherprogrammierbaren Steuerung, vorgesehen, kann man meist von einem Systemtakt ausgehen, der durch den Simulator gegeben ist.
+
+## Zustands-Anregungs-Matrix
+
+<img src="Bilder/ZA_Matrix.png"/>
+
+## Mealy- / Moore-Automaten 
+
+Mealy- und Moore-Automaten lassen sich ineinander umwandeln. Will man beispielsweise einen Mealy-Automaten in einen Moore-Automaten umwandeln kann man in folgenden drei Schritten vorgehen:
+
+##### Schritt 1: Ausgabe in die Knoten schreiben
+
+Für jede Kante wird die Ausgabe in den Zustand übertragen, auf dem die Kante endet. Hierbei stehen in der Regel verschiedene Ausgabewerte in einem Zustandsknoten.
+
+<img src="Bilder/Mealy_Moore_1.png"/>
+
+##### Schritt 2: Knoten aufspalten und eingehende Kanten umhängen
+
+Die Zustände werden vervielfacht, so dass jedem Zustand nur noch höchstens ein Ausgabewert zugeordnet ist; anschließend hängt man eingehende Kanten entsprechend der Ausgabewerte auf die neuen Zustände um.
+
+<img src="Bilder/Mealy_Moore_2.png"/>
+
+##### Schritt 3: Ausgehende Kanten vervielfachen
+
+Zuletzt muss man alle ausgehenden Kanten der ursprünglichen Zustände kopieren und an die Zustände aus Schritt 2 anhängen.
+
+<img src="Bilder/Mealy_Moore_3.png"/>
+
+Die Ausgabe des so konstruierten Moore-Automaten ist äquivalent zu der des ursprünglichen Mealy-Automaten.
+
+<img src="Bilder/Mealy_Moore_4.png"/>
+
 ## Systemzustände
 ## Schaltfunktionen
 ## Fuzzy Logic
-## Neuronale Netze
-## Bayes Netze
-## KNN
+
+#####  Unscharfe Mengen & Zugehörigkeitsfunktionen
+
+Eine Funktion $m$ ist genau dann ein Element der Menge aller unscharfen Mengen (aller Zugehörigkeitsfunktionen), wenn $m$ eine Funktion ist, die aus der Grundmenge $X$ auf das Einheitsintervall $[0, 1]$ abbildet.
+
+###### Gleichheit
+
+Zwei unscharfe Mengen $A$ und $B$ sind genau dann gleich, wenn für jedes $x$ ihreZugehörigkeitsfunktionen den gleichen Wahrheitswert liefern.
+
+###### Zugehörigkeit
+
+Eine unscharfe Menge $A$ ist enthalten in oder Teilmenge von einer unscharfen Menge $B$ genau dann, wenn für jedes $x$ der Wahrheitswert der Zugehörigkeitsfunktion von $A$ kleiner oder gleich dem Wahrheitswert der Zugehörigkeitsfunktion von $B$ ist.
+
+###### Komplement
+
+Das Komplement einer unscharfen Menge $A$ ist die Menge, für die jeder Wahrheitswert ihrer Zugehörigkeitsfunktion für jedes $x$ gerade die Differenz von $1$ und dem Wahrheitswert der Zugehörigkeitsfunktion von $A$ und dem selben $x$ ist.
+
+###### Durchschnitt
+
+Der Durchschnitt zweier unscharfer Mengen $A$ und $B$ ist für jedes $x$ das je-weilige Minimum der zwei Wahrheitswerte der Zugehörigkeitsfunktionen von $A$ und $B$.
+
+###### Vereinigung
+
+Die Vereinigung zweier unscharfer Mengen $A$ und $B$ ist für jedes $x$ das jeweilige Maximum der zwei Wahrheitswerte der Zugehörigkeitsfunktionen von $A$ und $B$.
+
+## Künstliche Neuronale Netze (KNN)
+
+##### Prozesseinheit (PE)
+
+<img src="Bilder/PE.png"/>
+
+##### Vorteile
+
++ Lernfähigkeit, Parallelität, Verteilte Wissensrepräsentation+ Höhere Fehlertoleranz, Assoziative Speicherung von Informationen+ Robustheit gegen Störungen oder verrauschte Daten+ Aktive Repräsentation
+
+##### Nachteile
+
++ Wissenserwerb nur durch Lernen möglich+ keine Introspektion möglich (z.B. durch "Selbstbeobachtung")+ Logisches (sequentielles) Schließen ist schwer zu realisieren+ Lernen ist relativ langsam
