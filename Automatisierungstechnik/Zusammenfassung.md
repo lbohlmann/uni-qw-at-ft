@@ -156,9 +156,21 @@ Treten Stabilitätsprobleme auf, können diese durch einen Systemtakt, der ein
 
 ## Mealy- / Moore-Automaten 
 
-Mealy- und Moore-Automaten lassen sich ineinander umwandeln.
+### Moore-Automat
+
+Beim Moore-Automaten ist jedem Zustand eine fixe Ausgabe zugeordnet. Der Moore-Automat hat also immer mindestens genauso viele oder mehr Zustände als der äqivalente Mealy-Automat.
+
+<img src="Bilder/Moore.png"/>
+
+### Mealy-Automat
+
+Beim Mealy-Automaten ist die Ausgabe nicht nur vom Zustand abhängig, sondern auch von der Eingabe, also quasi vom "Weg", der genommen wurde um den Zustand zu erreichen.
+
+<img src="Bilder/Mealy.png"/>
 
 ### Umwandlung von Mealy nach Moore
+
+Mealy- und Moore-Automaten lassen sich ineinander umwandeln.
 
 ##### Schritt 1: Ausgabe in die Knoten schreiben
 
