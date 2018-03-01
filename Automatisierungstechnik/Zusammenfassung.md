@@ -194,12 +194,6 @@ Die Ausgabe des so konstruierten Moore-Automaten ist äquivalent zu der des ursp
 
 <img src="Bilder/Mealy_Moore_4.png"/>
 
-## Umwandlung von Moore nach Mealy
-
-**TODO**
-
-## Systemzustände
-## Schaltfunktionen
 ## Fuzzy Logic
 
 #####  Unscharfe Mengen & Zugehörigkeitsfunktionen
@@ -242,9 +236,6 @@ $x$ = Ausgangswert <br>$w$ = Gewichtungsvektor <br>$f(s)$ = Aktivierungsfunkti
 
 Ein neuronales Netz setzt sich aus mehreren PE zusammen Üblicherweise werden dazu verschiedene Schichten von PE untereinander vernetzt
 
-##### Perzeptron Konvergenzregel
-
-**TODO**
 
 ##### Vorteile
 
