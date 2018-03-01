@@ -104,23 +104,33 @@ Das RS-Flip-Flop ist ein bistabiler Funktionsblock mit dominantem Rücksetzen. D
 
 ##### Implementierung mit NOR-Gattern
 
-<img src="Bilder/RS_NOR.gif"/>
+<img src="Bilder/RS_NOR.png"/>
 
 ##### Implementierung mit NAND-Gattern
 
 <img src="Bilder/RS_NAND.gif"/>
 
-### T-Flip-Flop
+##### Zeitverlauf am RS-Flipflop
 
-**TODO**
+<img style="height: 500px;" src="Bilder/RS_Tafel.png"/>
+
+<img style="height: 500px;" src="Bilder/RS_Zeit.png"/>
 
 ### D-Flip-Flop
 
-**TODO**
+Das D-Flipflop ist ein taktgesteuertes Flip-Flop. Es basiert auf dem RS-Flipflop, aber es vermeidet den verbotenen Zustand des RS-Flipflops, indem es am Rücksetzeingang den negierten Setzeingang anlegt. 
 
 ### JK-Flip-Flop
 
-**TODO**
+Da JK-FLipflop 
+
+
+### T-Flip-Flop
+
+Das
+
+
+
 
 ## Zustandsübergangsdiagramm
 
