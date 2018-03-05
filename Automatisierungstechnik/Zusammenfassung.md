@@ -80,6 +80,20 @@ Jede Formel der Aussagenlogik lässt sich in die disjunktive Normalform umwandel
 
 Auf diese Weise erhält man allerdings in der Regel keine minimale Formel, das heißt eine Formel mit möglichst wenig Termen. Will man eine minimale Formel bilden, so kann man dies mit Hilfe von Karnaugh-Veitch-Diagrammen oder mithilfe des Quine-McCluskey-Verfahrens tun.
 
+<<<<<<< HEAD
+## Karnaugh Diagramm
+## K-F-Diagramm
+## Kippschaltungen
+## RS Latch / Flipflop
+## Zustandsgraph
+## Zustandsübergangsdiagramm
+## Systemzustände
+## Schaltfunktionen
+## Fuzzy Logic
+## Neuronale Netze
+## Bayes Netze
+## KNN
+=======
 ## Karnaugh-Veitch-Diagramm
 
 Das Karnaugh-Veitch-Diagramm oder auch K-V-Diagramm ist eine Methode zum bestimmen der optimierten (kleinstmöglichen) Funktion für eine gewünschte Wahrheitstafel, oder auch einen nicht optimierten boolschen Ausdruck, da dieser ja eine Wahrheitstafel für alle möglichen Eingänge liefert.
@@ -252,3 +266,4 @@ Ein neuronales Netz setzt sich aus mehreren PE zusammen Üblicherweise werden d
 ##### Kontaktplan
 
 ##### Ablaufplan
+>>>>>>> bf5f902423acb80a2c4470533666b2620f38ab72
